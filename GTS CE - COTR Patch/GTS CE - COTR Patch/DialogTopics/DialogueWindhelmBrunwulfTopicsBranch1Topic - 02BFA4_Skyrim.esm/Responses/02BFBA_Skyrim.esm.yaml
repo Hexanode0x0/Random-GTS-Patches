@@ -1,0 +1,77 @@
+FormKey: 02BFBA:Skyrim.esm
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF__0002BFBA
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF__0002BFBA
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF__0002BFBA
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Is that so? You ought to join the Stormcloaks, if you haven't already.
+  ScriptNotes: ''
+  Edits: ''
+- Emotion: Anger
+  EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Seems to me they're a bunch of narrow-minded bigots, just like you.
+  ScriptNotes: ''
+  Edits: ''
+- Emotion: Anger
+  EmotionValue: 50
+  ResponseNumber: 3
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Meantime, you best steer clear of me.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetPCIsRaceConditionData
+    RunOnType: Target
+    Race: 013746:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetPCIsRaceConditionData
+    RunOnType: Target
+    Race: 088794:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    Quest: 03502E:Skyrim.esm
+    Stage: 10
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 014149:Skyrim.esm
+  ComparisonValue: 1

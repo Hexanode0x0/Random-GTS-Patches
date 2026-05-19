@@ -1,0 +1,25 @@
+FormKey: 0F7B43:Skyrim.esm
+Flags: {}
+PreviousDialog: 0F7B42:Skyrim.esm
+FavorLevel: None
+Responses:
+- Emotion: Sad
+  EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I'm sorry. We'll make sure your remains are returned to Cyrodiil.
+  ScriptNotes: to the player - apologetic, reassuring
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsRaceConditionData
+    RunOnType: QuestAlias
+    RunOnTypeIndex: 119
+    Race: 013744:Skyrim.esm
+  ComparisonValue: 1

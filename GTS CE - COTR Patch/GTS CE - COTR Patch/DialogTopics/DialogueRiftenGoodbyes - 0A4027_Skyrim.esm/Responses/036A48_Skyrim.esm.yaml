@@ -1,0 +1,53 @@
+FormKey: 036A48:Skyrim.esm
+Flags: {}
+PreviousDialog: 036A38:Skyrim.esm
+FavorLevel: None
+Responses:
+- Emotion: Anger
+  EmotionValue: 75
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Imperial bastard.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 013381:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetIsRaceConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Race: 013744:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsRaceConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Race: 088844:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: NotEqualTo
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 019E53:Skyrim.esm
+    VariableName: ::playerAllegiance_var
+  ComparisonValue: 073F11:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 019E53:Skyrim.esm
+    VariableName: ::playerInvolved_var

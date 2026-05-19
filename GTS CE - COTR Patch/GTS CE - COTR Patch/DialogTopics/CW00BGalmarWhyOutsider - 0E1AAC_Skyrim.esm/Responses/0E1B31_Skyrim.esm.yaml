@@ -1,0 +1,41 @@
+FormKey: 0E1B31:Skyrim.esm
+Flags: {}
+PreviousDialog: 0E1B30:Skyrim.esm
+FavorLevel: None
+LinkTo:
+- 0E1AAB:Skyrim.esm
+- 0E1AAA:Skyrim.esm
+- 0E1AA8:Skyrim.esm
+Responses:
+- Emotion: Puzzled
+  EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: But first, tell me. Why's a Redguard want to fight for Skyrim?
+  ScriptNotes: (challenging) suspicious of the player's motive
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 014128:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetIsRaceConditionData
+    RunOnType: Target
+    Race: 013748:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsRaceConditionData
+    RunOnType: Target
+    Race: 088846:Skyrim.esm
+  ComparisonValue: 1

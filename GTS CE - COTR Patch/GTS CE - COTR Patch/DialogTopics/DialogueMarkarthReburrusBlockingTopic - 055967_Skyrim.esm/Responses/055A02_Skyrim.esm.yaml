@@ -1,0 +1,54 @@
+FormKey: 055A02:Skyrim.esm
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 055966:Skyrim.esm
+- 055965:Skyrim.esm
+- 055964:Skyrim.esm
+Responses:
+- Emotion: Disgust
+  EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Why are you bothering me, kinsman?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetKeywordDataForLocationConditionData
+    Location: 018A59:Skyrim.esm
+    Keyword: 02A456:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsInDialogueWithPlayerConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    Quest: 017F05:Skyrim.esm
+    Stage: 50
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetPCIsRaceConditionData
+    Race: 013744:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetPCIsRaceConditionData
+    Race: 088844:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 0133B3:Skyrim.esm
+  ComparisonValue: 1

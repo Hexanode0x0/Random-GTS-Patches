@@ -1,0 +1,71 @@
+FormKey: 06075A:Skyrim.esm
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- Emotion: Anger
+  EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: They started the Great War. Nearly destroyed the Imperial City. Then the Emperor took the coward's way out and surrendered.
+  ScriptNotes: ''
+  Edits: ''
+- Emotion: Anger
+  EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Now the Elves dictate everything we do, and they don't want us acknowledging a "mere human" like Talos as the god he is.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetKeywordDataForLocationConditionData
+    Location: 018A59:Skyrim.esm
+    Keyword: 02A456:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    Quest: 017F05:Skyrim.esm
+    Stage: 70
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetPCIsRaceConditionData
+    Race: 013742:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetPCIsRaceConditionData
+    Race: 08883D:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetPCIsRaceConditionData
+    Race: 013749:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetPCIsRaceConditionData
+    Race: 088884:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetPCIsRaceConditionData
+    Race: 013743:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetPCIsRaceConditionData
+    Race: 088840:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 0133BB:Skyrim.esm
+  ComparisonValue: 1

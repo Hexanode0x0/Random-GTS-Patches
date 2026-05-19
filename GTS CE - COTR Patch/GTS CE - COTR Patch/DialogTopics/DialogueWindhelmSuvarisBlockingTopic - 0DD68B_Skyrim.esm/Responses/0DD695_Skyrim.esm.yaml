@@ -1,0 +1,38 @@
+FormKey: 0DD695:Skyrim.esm
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 0DD689:Skyrim.esm
+- 0DD68A:Skyrim.esm
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Do you hate the Dark Elves? Are you here to bully us and tell us to leave?
+  ScriptNotes: Annoyed, exasperated
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetPCIsRaceConditionData
+    Race: 013742:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetPCIsRaceConditionData
+    Race: 08883D:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    Quest: 03502E:Skyrim.esm
+    Stage: 20
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 014122:Skyrim.esm
+  ComparisonValue: 1

@@ -1,0 +1,40 @@
+FormKey: 04BCA7:Skyrim.esm
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 04BC85:Skyrim.esm
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I guessed right! I always imagined the great Gourmet was a Wood Elf. You see, only someone with a knowledge of woodland herbs could combine...
+  ScriptNotes: ''
+  Edits: ''
+  SpeakerIdleAnimation: 103277:Skyrim.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 04BCC3:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetPCIsRaceConditionData
+    Race: 013749:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetPCIsRaceConditionData
+    Race: 088884:Skyrim.esm
+  ComparisonValue: 1
+Prompt:
+  TargetLanguage: English
+  Value: Yes?

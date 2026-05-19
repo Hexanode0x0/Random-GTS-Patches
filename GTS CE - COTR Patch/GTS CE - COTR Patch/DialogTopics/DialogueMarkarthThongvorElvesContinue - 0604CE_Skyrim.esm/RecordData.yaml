@@ -1,0 +1,8 @@
+FormKey: 0604CE:Skyrim.esm
+EditorID: DialogueMarkarthThongvorElvesContinue
+Name:
+  TargetLanguage: English
+  Value: (Invisible Continue)
+Branch: 060AC4:Skyrim.esm
+Quest: 017F05:Skyrim.esm
+SubtypeName: CUST

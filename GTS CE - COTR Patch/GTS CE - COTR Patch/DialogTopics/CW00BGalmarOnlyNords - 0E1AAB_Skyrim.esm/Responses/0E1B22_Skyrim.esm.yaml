@@ -1,0 +1,49 @@
+FormKey: 0E1B22:Skyrim.esm
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 0E1AA7:Skyrim.esm
+- 0E1AAA:Skyrim.esm
+- 0E1AA8:Skyrim.esm
+Responses:
+- Emotion: Puzzled
+  EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You mistake me. I'm not saying no - just wondering about your intentions.
+  ScriptNotes: 'being straightforward about his suspicion '
+  Edits: "You mistake me. I'm not saying no, I'm just wondering what your angle is? "
+- Emotion: Anger
+  EmotionValue: 25
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: We're not looking for sellswords. The Stormcloaks need dedicated men and women who're devoted to the cause and willing to die for it.
+  ScriptNotes: telling it like it is
+  Edits: We're not looking for freelancers. We're looking for dedicated men and women who're devoted to the cause and willing to die for it.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 014128:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsRaceConditionData
+    RunOnType: Target
+    Race: 013746:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsRaceConditionData
+    RunOnType: Target
+    Race: 088794:Skyrim.esm

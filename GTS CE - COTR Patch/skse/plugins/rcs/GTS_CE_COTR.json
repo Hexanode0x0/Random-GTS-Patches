@@ -1,0 +1,173 @@
+{
+"$schema": "https://raw.githubusercontent.com/shuc1/race-compatibility-skse/main/res/schema/schema",
+    "RCS": [
+    {
+        "name": "COTRBreton",
+        "race": {
+            "form": "00DZB_BretonRace",
+            "proxies": [
+                "BretonRace"
+            ],
+            "armor": {
+                "race": "BretonRace"
+            }
+        },
+        "vampireRace": {
+            "form": "00DZB_BretonRaceVampire",
+            "proxies": [
+                "BretonRaceVampire"
+            ],
+            "armor": {
+                "race": "BretonRaceVampire"
+            }
+        }
+    },
+    {
+        "name": "COTRImperial",
+        "race": {
+            "form": "00DZI_ImperialRace",
+            "proxies": [
+                "ImperialRace"
+            ],
+            "armor": {
+                "race": "ImperialRace"
+            }
+        },
+        "vampireRace": {
+            "form": "00DZI_ImperialVampire",
+            "proxies": [
+                "ImperialRaceVampire"
+            ],
+            "armor": {
+                "race": "ImperialRaceVampire"
+            }
+        }
+    },
+    {
+        "name": "COTRNord",
+        "race": {
+            "form": "00DZN_NordRace",
+            "proxies": [
+                "NordRace"
+            ],
+            "armor": {
+                "race": "NordRace"
+            }
+        },
+        "vampireRace": {
+            "form": "00DZN_NordRaceVampire",
+            "proxies": [
+                "NordRaceVampire"
+            ],
+            "armor": {
+                "race": "NordRaceVampire"
+            }
+        }
+    },
+    {
+        "name": "COTRRedguard",
+        "race": {
+            "form": "00DZR_RedguardRace",
+            "proxies": [
+                "RedguardRace"
+            ],
+            "armor": {
+                "race": "RedguardRace"
+            }
+        },
+        "vampireRace": {
+            "form": "00DZR_RedguardRaceVampire",
+            "proxies": [
+                "RedguardRaceVampire"
+            ],
+            "armor": {
+                "race": "RedguardRaceVampire"
+            }
+        }
+    },
+    {
+        "name": "COTRDarkElf",
+        "race": {
+            "form": "00DZD_DarkElfRace",
+            "proxies": [
+                "DarkElfRace"
+            ],
+            "armor": {
+                "race": "DarkElfRace"
+            }
+        },
+        "vampireRace": {
+            "form": "00DZD_DarkElfRaceVampire",
+            "proxies": [
+                "DarkElfRaceVampire"
+            ],
+            "armor": {
+                "race": "DarkElfRaceVampire"
+            }
+        }
+    },
+    {
+        "name": "COTRHighElf",
+        "race": {
+            "form": "00DZH_HighElfRace",
+            "proxies": [
+                "HighElfRace"
+            ],
+            "armor": {
+                "race": "HighElfRace"
+            }
+        },
+        "vampireRace": {
+            "form": "00DZH_HighElfRaceVampire",
+            "proxies": [
+                "HighElfRaceVampire"
+            ],
+            "armor": {
+                "race": "HighElfRaceVampire"
+            }
+        }
+    },
+    {
+        "name": "COTRWoodElf",
+        "race": {
+            "form": "00DZW_WoodElfRace",
+            "proxies": [
+                "WoodElfRace"
+            ],
+            "armor": {
+                "race": "WoodElfRace"
+            }
+        },
+        "vampireRace": {
+            "form": "000DZW_WoodElfRaceVampire",
+            "proxies": [
+                "WoodElfRaceVampire"
+            ],
+            "armor": {
+                "race": "WoodElfRaceVampire"
+            }
+        }
+    },
+    {
+        "name": "COTROrc",
+        "race": {
+            "form": "00DZO_OrcRace",
+            "proxies": [
+                "OrcRace"
+            ],
+            "armor": {
+                "race": "OrcRace"
+            }
+        },
+        "vampireRace": {
+            "form": "00DZO_OrcRaceVampire",
+            "proxies": [
+                "OrcRaceVampire"
+            ],
+            "armor": {
+                "race": "OrcRaceVampire"
+            }
+        }
+    }
+    ]
+}

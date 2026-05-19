@@ -1,0 +1,40 @@
+FormKey: 016949:Skyrim.esm
+Flags:
+  Flags:
+  - Random
+  ResetHours: 0.19995423
+PreviousDialog: 04C5A2:Skyrim.esm
+FavorLevel: None
+Responses:
+- Emotion: Anger
+  EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Daanik Kendov!
+  ScriptNotes: ''
+  Edits: Means "Doomed Warrior!"
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetIsRaceConditionData
+    RunOnType: CombatTarget
+    Race: 013746:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsRaceConditionData
+    RunOnType: CombatTarget
+    Race: 088794:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsVoiceTypeConditionData
+    VoiceTypeOrList: 01F1CD:Skyrim.esm
+  ComparisonValue: 1

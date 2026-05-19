@@ -1,0 +1,62 @@
+FormKey: 0422CF:Skyrim.esm
+Flags:
+  ResetHours: 0.49988556
+PreviousDialog: 0422C9:Skyrim.esm
+FavorLevel: None
+Responses:
+- Emotion: Disgust
+  EmotionValue: 100
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Be brief Imperial, there's only so long I can stand being downwind of your stench.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 013381:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetIsRaceConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Race: 013744:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetIsRaceConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Race: 088844:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  Data:
+    MutagenObjectType: GetKeywordDataForLocationConditionData
+    Location: 018A58:Skyrim.esm
+    Keyword: 02A456:Skyrim.esm
+  ComparisonValue: 073F10:Skyrim.esm
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: NotEqualTo
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 019E53:Skyrim.esm
+    VariableName: ::playerAllegiance_var
+  ComparisonValue: 073F11:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 019E53:Skyrim.esm
+    VariableName: ::playerInvolved_var

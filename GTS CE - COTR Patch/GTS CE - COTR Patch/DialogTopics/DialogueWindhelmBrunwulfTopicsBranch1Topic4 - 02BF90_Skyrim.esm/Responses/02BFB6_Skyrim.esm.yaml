@@ -1,0 +1,59 @@
+FormKey: 02BFB6:Skyrim.esm
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF__0002BFB6
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF__0002BFB6
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF__0002BFB6
+      FragmentName: Fragment_0
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: And you're right, at least as far as I'm concerned.
+  ScriptNotes: ''
+  Edits: ''
+- Emotion: Happy
+  EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Don't let Ulfric or some of these other short-sighted Nords bother you. Most of us are happy to welcome newcomers.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetPCIsRaceConditionData
+    RunOnType: Target
+    Race: 013746:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetPCIsRaceConditionData
+    RunOnType: Target
+    Race: 088794:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    Quest: 03502E:Skyrim.esm
+    Stage: 10
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 014149:Skyrim.esm
+  ComparisonValue: 1

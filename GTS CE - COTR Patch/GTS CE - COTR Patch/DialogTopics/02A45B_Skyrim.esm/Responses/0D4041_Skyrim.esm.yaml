@@ -1,0 +1,36 @@
+FormKey: 0D4041:Skyrim.esm
+Flags:
+  Flags:
+  - Random
+PreviousDialog: 0D4040:Skyrim.esm
+FavorLevel: None
+Responses:
+- Emotion: Anger
+  EmotionValue: 75
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: What are you doing, s'wit?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsVoiceTypeConditionData
+    VoiceTypeOrList: 06E82E:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetIsRaceConditionData
+    Race: 013742:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsRaceConditionData
+    Race: 08883D:Skyrim.esm
+  ComparisonValue: 1

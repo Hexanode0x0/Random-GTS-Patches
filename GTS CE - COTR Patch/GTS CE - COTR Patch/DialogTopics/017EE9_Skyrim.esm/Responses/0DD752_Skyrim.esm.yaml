@@ -1,0 +1,39 @@
+FormKey: 0DD752:Skyrim.esm
+Flags: {}
+PreviousDialog: 0DD751:Skyrim.esm
+FavorLevel: None
+Responses:
+- Emotion: Disgust
+  EmotionValue: 60
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Lots of lawless folk around here. Foreigners, mostly. No offense.
+  ScriptNotes: You aren't embarrassed of being racist, but matter-of-fact polite in your apology.
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetIsRaceConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Race: 013746:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetIsRaceConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Race: 088794:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 017F04:Skyrim.esm
+  ComparisonValue: 1

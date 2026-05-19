@@ -1,0 +1,27 @@
+FormKey: 107571:Skyrim.esm
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF__000CD66B
+Flags: {}
+PreviousDialog: 107570:Skyrim.esm
+FavorLevel: None
+Responses:
+- Emotion: Disgust
+  EmotionValue: 15
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Next, the Wood Elf!
+  ScriptNotes: calling out and pointing at the next prisoner to be executed
+  Edits: ''
+  SpeakerIdleAnimation: 0FFA0C:Skyrim.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsRaceConditionData
+    RunOnType: QuestAlias
+    RunOnTypeIndex: 119
+    Race: 013749:Skyrim.esm
+  ComparisonValue: 1

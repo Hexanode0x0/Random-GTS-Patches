@@ -1,0 +1,26 @@
+FormKey: 0EF982:Skyrim.esm
+Flags: {}
+PreviousDialog: 0EF981:Skyrim.esm
+FavorLevel: None
+Responses:
+- Emotion: Sad
+  EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Another refugee? Gods really have abandoned your people, Dark Elf.
+  ScriptNotes: interviewing a prisoner
+  Edits: ''
+  SpeakerIdleAnimation: 0EE3B6:Skyrim.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsRaceConditionData
+    RunOnType: QuestAlias
+    RunOnTypeIndex: 119
+    Race: 013742:Skyrim.esm
+  ComparisonValue: 1

@@ -1,0 +1,62 @@
+FormKey: 02BFB9:Skyrim.esm
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF__0002BFB9
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF__0002BFB9
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF__0002BFB9
+      FragmentName: Fragment_0
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Good. Too many Nords in this town have been listening to Ulfric's narrow-minded words.
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 3
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: He's tough, loyal to his men and a good leader, but if you're not a Nord, Ulfric will never trust you.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetPCIsRaceConditionData
+    RunOnType: Target
+    Race: 013746:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetPCIsRaceConditionData
+    RunOnType: Target
+    Race: 088794:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    Quest: 03502E:Skyrim.esm
+    Stage: 10
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 014149:Skyrim.esm
+  ComparisonValue: 1

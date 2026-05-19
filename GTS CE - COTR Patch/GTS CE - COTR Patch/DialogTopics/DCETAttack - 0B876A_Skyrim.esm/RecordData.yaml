@@ -1,0 +1,9 @@
+FormKey: 0B876A:Skyrim.esm
+EditorID: DCETAttack
+Name:
+  TargetLanguage: English
+  Value: DCETAttack
+Quest: 0B8774:Skyrim.esm
+Category: Combat
+Subtype: Attack
+SubtypeName: ATCK

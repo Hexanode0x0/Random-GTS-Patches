@@ -1,0 +1,25 @@
+FormKey: 0DE460:Skyrim.esm
+Flags:
+  Flags:
+  - ForceSubtitle
+PreviousDialog: 0DE45F:Skyrim.esm
+FavorLevel: None
+Responses:
+- Emotion: Fear
+  EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Hey, High Elf. Get up! Come on, the gods won't give us another chance!
+  ScriptNotes: urgent shouting
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetPCIsRaceConditionData
+    Race: 013743:Skyrim.esm
+  ComparisonValue: 1

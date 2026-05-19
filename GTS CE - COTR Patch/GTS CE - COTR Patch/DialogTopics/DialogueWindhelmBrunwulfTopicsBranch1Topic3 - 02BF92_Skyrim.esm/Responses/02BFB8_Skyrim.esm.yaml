@@ -1,0 +1,61 @@
+FormKey: 02BFB8:Skyrim.esm
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF__0002BFB8
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF__0002BFB8
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF__0002BFB8
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: That's just what Ulfric wants you to think.
+  ScriptNotes: ''
+  Edits: ''
+- Emotion: Anger
+  EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: If that's what you really believe, then you're a fool. Never had much patience for fools, myself.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetPCIsRaceConditionData
+    RunOnType: Target
+    Race: 013746:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetPCIsRaceConditionData
+    RunOnType: Target
+    Race: 088794:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    Quest: 03502E:Skyrim.esm
+    Stage: 10
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 014149:Skyrim.esm
+  ComparisonValue: 1

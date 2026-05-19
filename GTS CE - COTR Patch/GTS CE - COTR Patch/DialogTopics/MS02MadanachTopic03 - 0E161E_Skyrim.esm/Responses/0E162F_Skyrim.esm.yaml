@@ -1,0 +1,51 @@
+FormKey: 0E162F:Skyrim.esm
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF__000E162F
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF__000E162F
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF__000E162F
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- Emotion: Anger
+  EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Then come for me, "son of Skyrim." Come for me!
+  ScriptNotes: mocking - "son of Skyrim"
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetPCIsSexConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetPCIsRaceConditionData
+    Race: 013746:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetPCIsRaceConditionData
+    Race: 088794:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 0133A7:Skyrim.esm
+  ComparisonValue: 1

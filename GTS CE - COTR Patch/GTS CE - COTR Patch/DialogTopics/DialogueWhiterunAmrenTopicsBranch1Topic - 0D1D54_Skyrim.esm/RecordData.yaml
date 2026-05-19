@@ -1,0 +1,9 @@
+FormKey: 0D1D54:Skyrim.esm
+EditorID: DialogueWhiterunAmrenTopicsBranch1Topic
+Name:
+  TargetLanguage: English
+  Value: You're not from Skyrim, are you?
+Priority: 40
+Branch: 0D1D5A:Skyrim.esm
+Quest: 0270A4:Skyrim.esm
+SubtypeName: CUST

@@ -1,0 +1,39 @@
+FormKey: 036A7E:Skyrim.esm
+Flags: {}
+PreviousDialog: 036A48:Skyrim.esm
+FavorLevel: None
+Responses:
+- Emotion: Happy
+  EmotionValue: 75
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Farewell, kinsman.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 013381:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetIsRaceConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Race: 013746:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsRaceConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Race: 088794:Skyrim.esm
+  ComparisonValue: 1

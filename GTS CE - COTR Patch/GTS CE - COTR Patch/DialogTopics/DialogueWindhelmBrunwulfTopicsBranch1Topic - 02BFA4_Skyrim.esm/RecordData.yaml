@@ -1,0 +1,8 @@
+FormKey: 02BFA4:Skyrim.esm
+EditorID: DialogueWindhelmBrunwulfTopicsBranch1Topic
+Name:
+  TargetLanguage: English
+  Value: Yes. Anyone who's not a Nord is a trespasser.
+Branch: 02C0CE:Skyrim.esm
+Quest: 03502E:Skyrim.esm
+SubtypeName: CUST
