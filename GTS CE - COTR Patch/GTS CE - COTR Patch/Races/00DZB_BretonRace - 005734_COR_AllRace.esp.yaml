@@ -88,6 +88,7 @@ Regen:
   Value: 5
 UnarmedDamage: 5
 UnarmedReach: 96
+BodyBipedObject: Body
 AngularAccelerationRate: 0.25
 AngularTolerance: 5
 MountData:
