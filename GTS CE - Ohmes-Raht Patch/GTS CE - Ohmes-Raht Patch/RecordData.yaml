@@ -1,0 +1,31 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.40.1
+ModKey: GTS CE - Ohmes-Raht Patch.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Small
+  Author: ''
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: RaceCompatibility.esm
+    FileSize: 0
+  - Master: BSAssets.esm
+    FileSize: 0
+  - Master: Orpheus.esp
+    FileSize: 0
+  - Master: ForgottenCity.esp
+    FileSize: 0
+  - Master: HalfKhajiit.esp
+    FileSize: 0
+  - Master: Aetherius.esp
+    FileSize: 0
+  - Master: HKR - OhmesRahtTweaks.esp
+    FileSize: 0
+  - Master: GTS Patches - Old Synthesis.esp
+    FileSize: 0
+  INCC: 0
