@@ -1,0 +1,34 @@
+FormKey: 000809:GTS CE - The Artifice.esp
+EditorID: ARTIFICE_Famine_EnchHarvestHealthAsMagicka
+VirtualMachineAdapter:
+  Scripts:
+  - Name: ARTIFICE_FamineTertiary
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerREF
+      Object: 000014:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Harvest Health As Magicka
+MenuDisplayObject: 0435A5:Skyrim.esm
+Keywords:
+- ADA117:Update.esm
+Flags:
+- Hostile
+- Detrimental
+- NoDuration
+- NoArea
+- FXPersist
+- HideInUI
+- PowerAffectsMagnitude
+HitShader: 0ABEFF:Skyrim.esm
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Health
+CastType: FireAndForget
+TargetType: Touch
+DualCastScale: 1
+Description:
+  TargetLanguage: English
+  Value: ''

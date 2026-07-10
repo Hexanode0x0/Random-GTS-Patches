@@ -1,0 +1,35 @@
+FormKey: 00080D:GTS CE - The Artifice.esp
+EditorID: ARTIFICE_FamineEnch1
+Name:
+  TargetLanguage: English
+  Value: Famine Nourishment
+Flags:
+- NoAutoCalc
+- ExtendDurationOnRecast
+CastType: FireAndForget
+TargetType: Touch
+EnchantType: Enchantment
+Effects:
+- BaseEffect: 000808:GTS CE - The Artifice.esp
+  Data:
+    Magnitude: 40
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Magicka
+    ComparisonValue: 5
+- BaseEffect: 000809:GTS CE - The Artifice.esp
+  Data:
+    Magnitude: 40
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Magicka
+    ComparisonValue: 5
+- BaseEffect: 0008A5:GTS CE - The Artifice.esp
+  Data:
+    Duration: 5

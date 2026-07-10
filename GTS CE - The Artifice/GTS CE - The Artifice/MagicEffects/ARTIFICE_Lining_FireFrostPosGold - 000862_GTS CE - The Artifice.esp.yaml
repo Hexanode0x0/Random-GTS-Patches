@@ -1,0 +1,23 @@
+FormKey: 000862:GTS CE - The Artifice.esp
+EditorID: ARTIFICE_Lining_FireFrostPosGold
+Name:
+  TargetLanguage: English
+  Value: Fire and Frost Resistance
+MenuDisplayObject: 0435A5:Skyrim.esm
+Flags:
+- Recover
+- NoDuration
+- NoArea
+- HideInUI
+SecondActorValueWeight: 1
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: ResistFire
+  Type: DualValueModifier
+SecondActorValue: ResistFrost
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

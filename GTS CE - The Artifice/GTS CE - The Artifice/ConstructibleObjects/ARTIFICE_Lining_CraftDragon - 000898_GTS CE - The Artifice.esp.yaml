@@ -1,0 +1,12 @@
+FormKey: 000898:GTS CE - The Artifice.esp
+EditorID: ARTIFICE_Lining_CraftDragon
+Items:
+- Item:
+    Item: 03ADA3:Skyrim.esm
+    Count: 50
+- Item:
+    Item: 03ADA4:Skyrim.esm
+    Count: 50
+CreatedObject: 00000F:Skyrim.esm
+WorkbenchKeyword: 099306:Skyrim.esm
+CreatedObjectCount: 1

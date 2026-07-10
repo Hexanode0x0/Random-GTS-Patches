@@ -1,0 +1,107 @@
+FormKey: 000805:GTS CE - The Artifice.esp
+EditorID: ARTIFICE_Traits_EnchMagRateNeg
+VirtualMachineAdapter:
+  Scripts:
+  - Name: ARTIFICE_Effects
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArtificeSpellLevel
+      Object: 000835:GTS CE - The Artifice.esp
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: ArtificeSpellsImpure
+      Objects:
+      - Name: ''
+        Object: 000835:Astral.esl
+      - Name: ''
+        Object: 000836:Astral.esl
+      - Name: ''
+        Object: 000830:Astral.esl
+      - Name: ''
+        Object: 000844:Astral.esl
+      - Name: ''
+        Object: 00083C:Astral.esl
+      - Name: ''
+        Object: 005901:DHSpell.esp
+      - Name: ''
+        Object: 000831:Astral.esl
+      - Name: ''
+        Object: 000833:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 00082E:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 00083A:GTS CE - The Artifice.esp
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: ArtificeSpellsPure
+      Objects:
+      - Name: ''
+        Object: 000839:Astral.esl
+      - Name: ''
+        Object: 000842:Astral.esl
+      - Name: ''
+        Object: 0008D2:Astral.esl
+      - Name: ''
+        Object: 000846:Astral.esl
+      - Name: ''
+        Object: 000843:Astral.esl
+      - Name: ''
+        Object: 005901:DHSpell.esp
+      - Name: ''
+        Object: 000831:Astral.esl
+      - Name: ''
+        Object: 00082E:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 000833:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 00083A:GTS CE - The Artifice.esp
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: ArtificeSpellsStandard
+      Objects:
+      - Name: ''
+        Object: 000838:Astral.esl
+      - Name: ''
+        Object: 000841:Astral.esl
+      - Name: ''
+        Object: 0008D1:Astral.esl
+      - Name: ''
+        Object: 000845:Astral.esl
+      - Name: ''
+        Object: 000840:Astral.esl
+      - Name: ''
+        Object: 005901:DHSpell.esp
+      - Name: ''
+        Object: 000831:Astral.esl
+      - Name: ''
+        Object: 00082E:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 000833:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 00083A:GTS CE - The Artifice.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EffectKeywords
+      Object: 000838:GTS CE - The Artifice.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerREF
+      Object: 000014:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Enchanting and Magicka Regen Inability
+MenuDisplayObject: 0435A5:Skyrim.esm
+Flags:
+- Recover
+- Detrimental
+- NoDuration
+- NoArea
+- HideInUI
+SecondActorValueWeight: 1
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: EnchantingModifier
+  Type: DualValueModifier
+SecondActorValue: MagickaRate
+DualCastScale: 1
+PerkToApply: 000804:GTS CE - The Artifice.esp
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

@@ -1,0 +1,9 @@
+FormKey: 00088F:GTS CE - The Artifice.esp
+EditorID: ARTIFICE_Lining_CraftMoonstone
+Items:
+- Item:
+    Item: 05AD9F:Skyrim.esm
+    Count: 50
+CreatedObject: 00000F:Skyrim.esm
+WorkbenchKeyword: 099306:Skyrim.esm
+CreatedObjectCount: 1

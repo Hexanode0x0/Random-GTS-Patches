@@ -1,0 +1,23 @@
+FormKey: 0008C8:Wyrmstooth - Craftable Sets.esp
+EditorID: 04WTRecipeIngotBrimstone
+Items:
+- Item:
+    Item: 3344F9:Wyrmstooth.esp
+    Count: 2
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    RunOnTypeIndex: 0
+    Global: CC0299:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    RunOnTypeIndex: 0
+    ItemOrList: 3344F9:Wyrmstooth.esp
+  ComparisonValue: 1
+CreatedObject: 3344FB:Wyrmstooth.esp
+WorkbenchKeyword: 0A5CCE:Skyrim.esm
+CreatedObjectCount: 1

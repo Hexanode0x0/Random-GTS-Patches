@@ -1,0 +1,24 @@
+FormKey: 0008A4:GTS CE - The Artifice.esp
+EditorID: ARTIFICE_Lining_CraftLevel2
+Items:
+- Item:
+    Item: 06851E:Skyrim.esm
+    Count: 25
+- Item:
+    Item: 06851F:Skyrim.esm
+    Count: 25
+- Item:
+    Item: 068520:Skyrim.esm
+    Count: 25
+- Item:
+    Item: 068521:Skyrim.esm
+    Count: 25
+- Item:
+    Item: 068522:Skyrim.esm
+    Count: 25
+- Item:
+    Item: 068523:Skyrim.esm
+    Count: 25
+CreatedObject: 00000F:Skyrim.esm
+WorkbenchKeyword: 00089D:GTS CE - The Artifice.esp
+CreatedObjectCount: 1

@@ -1,0 +1,46 @@
+FormKey: 000821:Astral.esl
+EditorID: _A_AstralBlitz2MGEF
+Name:
+  TargetLanguage: English
+  Value: Astral Blitz
+Keywords:
+- 000800:Astral.esl
+Flags:
+- Hostile
+- Detrimental
+- FXPersist
+- PowerAffectsMagnitude
+- NoDeathDispel
+BaseCost: 15
+MagicSkill: Destruction
+ResistValue: ResistMagic
+CastingLight: 00086C:Astral.esl
+HitShader: 0008A7:Astral.esl
+MinimumSkillLevel: 75
+SpellmakingCastingTime: 0.5
+SecondActorValueWeight: 1
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Stamina
+  Type: DualValueModifier
+Projectile: 00087D:Astral.esl
+Explosion: 0008AE:Astral.esl
+CastType: FireAndForget
+TargetType: Aimed
+SecondActorValue: Magicka
+CastingArt: 0008C1:Astral.esl
+ImpactData: 105F37:Skyrim.esm
+SkillUsageMultiplier: 1
+DualCastScale: 1
+ImageSpaceModifier: 0008BA:Astral.esl
+Sounds:
+- Sound: 03D116:Skyrim.esm
+- Type: Charge
+  Sound: 00D94A:Dawnguard.esm
+- Type: Ready
+  Sound: 03C8FA:Skyrim.esm
+- Type: Release
+  Sound: 000E5D:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Fires a streak of erratic light, dealing <mag> damage to Stamina and Magicka.

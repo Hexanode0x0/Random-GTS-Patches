@@ -1,0 +1,23 @@
+FormKey: 00084B:GTS CE - The Artifice.esp
+EditorID: ARTIFICE_Lining_MagicPoisonPosSilver
+Name:
+  TargetLanguage: English
+  Value: Magic and Poison Resistance
+MenuDisplayObject: 0435A5:Skyrim.esm
+Flags:
+- Recover
+- NoDuration
+- NoArea
+- HideInUI
+SecondActorValueWeight: 1
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: ResistMagic
+  Type: DualValueModifier
+SecondActorValue: PoisonResist
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

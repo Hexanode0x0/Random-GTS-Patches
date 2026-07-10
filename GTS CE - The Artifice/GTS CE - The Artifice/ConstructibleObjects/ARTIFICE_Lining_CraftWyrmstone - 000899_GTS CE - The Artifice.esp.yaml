@@ -1,0 +1,9 @@
+FormKey: 000899:GTS CE - The Artifice.esp
+EditorID: ARTIFICE_Lining_CraftWyrmstone
+Items:
+- Item:
+    Item: 3344FA:Wyrmstooth.esp
+    Count: 100
+CreatedObject: 00000F:Skyrim.esm
+WorkbenchKeyword: 099306:Skyrim.esm
+CreatedObjectCount: 1

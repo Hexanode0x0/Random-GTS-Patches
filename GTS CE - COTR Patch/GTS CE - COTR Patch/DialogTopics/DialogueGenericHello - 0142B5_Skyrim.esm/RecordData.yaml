@@ -1,9 +1,0 @@
-FormKey: 0142B5:Skyrim.esm
-EditorID: DialogueGenericHello
-Name:
-  TargetLanguage: English
-  Value: DialogueGenericHello
-Quest: 013EB3:Skyrim.esm
-Category: Misc
-Subtype: Hello
-SubtypeName: HELO

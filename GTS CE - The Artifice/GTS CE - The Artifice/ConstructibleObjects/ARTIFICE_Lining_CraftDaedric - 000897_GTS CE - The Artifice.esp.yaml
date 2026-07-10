@@ -1,0 +1,12 @@
+FormKey: 000897:GTS CE - The Artifice.esp
+EditorID: ARTIFICE_Lining_CraftDaedric
+Items:
+- Item:
+    Item: 03AD5B:Skyrim.esm
+    Count: 20
+- Item:
+    Item: 05AD9D:Skyrim.esm
+    Count: 50
+CreatedObject: 00000F:Skyrim.esm
+WorkbenchKeyword: 099306:Skyrim.esm
+CreatedObjectCount: 1

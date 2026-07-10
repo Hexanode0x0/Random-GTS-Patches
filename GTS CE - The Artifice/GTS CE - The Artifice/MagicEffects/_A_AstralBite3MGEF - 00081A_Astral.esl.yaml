@@ -1,0 +1,45 @@
+FormKey: 00081A:Astral.esl
+EditorID: _A_AstralBite3MGEF
+Name:
+  TargetLanguage: English
+  Value: Astral Bite
+MenuDisplayObject: 000870:Astral.esl
+Keywords:
+- 000800:Astral.esl
+- 01CEAE:Skyrim.esm
+Flags:
+- Hostile
+- Detrimental
+- NoArea
+- FXPersist
+- NoRecast
+- PowerAffectsMagnitude
+- NoDeathDispel
+BaseCost: 2.5
+MagicSkill: Destruction
+ResistValue: ResistMagic
+CastingLight: 00086C:Astral.esl
+TaperWeight: 0.3
+HitShader: 0008A7:Astral.esl
+TaperCurve: 2
+TaperDuration: 0.1
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Health
+Projectile: 00087C:Astral.esl
+CastType: FireAndForget
+TargetType: Aimed
+CastingArt: 0008C1:Astral.esl
+ImpactData: 04C6DA:Skyrim.esm
+SkillUsageMultiplier: 1
+DualCastScale: 1
+ImageSpaceModifier: 0A9D93:Skyrim.esm
+Sounds:
+- Sound: 03D116:Skyrim.esm
+- Type: Release
+  Sound: 0008DB:Astral.esl
+- Type: OnHit
+  Sound: 0A7246:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Fires a quick bolt of frigid, unstable energy, dealing <mag> points of damage and staggering the target.

@@ -1,0 +1,34 @@
+FormKey: 00082E:GTS CE - The Artifice.esp
+EditorID: ARTIFICE_Spell_Subsume
+Name:
+  TargetLanguage: English
+  Value: Subsume
+MenuDisplayObject: 000873:Astral.esl
+EquipmentType: 013F45:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Take everything.
+BaseCost: 150
+Flags:
+- ManualCostCalc
+- NoDualCastModification
+ChargeTime: 0.1
+CastType: Concentration
+TargetType: Aimed
+HalfCostPerk: 0C44C2:Skyrim.esm
+Effects:
+- BaseEffect: 000830:GTS CE - The Artifice.esp
+  Data:
+    Magnitude: 75
+    Duration: 1
+- BaseEffect: 00082F:GTS CE - The Artifice.esp
+  Data:
+    Magnitude: 75
+    Duration: 1
+- BaseEffect: 000832:GTS CE - The Artifice.esp
+  Data:
+    Magnitude: 75
+    Duration: 1
+- BaseEffect: 000839:GTS CE - The Artifice.esp
+  Data:
+    Duration: 1

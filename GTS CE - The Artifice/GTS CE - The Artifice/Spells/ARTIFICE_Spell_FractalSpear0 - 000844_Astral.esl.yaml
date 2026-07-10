@@ -1,0 +1,22 @@
+FormKey: 000844:Astral.esl
+EditorID: ARTIFICE_Spell_FractalSpear0
+Name:
+  TargetLanguage: English
+  Value: Impure Fractal Spear
+MenuDisplayObject: 000871:Astral.esl
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 80
+Flags:
+- ManualCostCalc
+- IgnoreResistance
+ChargeTime: 0.5
+CastType: FireAndForget
+TargetType: Aimed
+HalfCostPerk: 0C44C0:Skyrim.esm
+Effects:
+- BaseEffect: 000827:Astral.esl
+  Data:
+    Magnitude: 60

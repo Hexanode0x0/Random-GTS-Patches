@@ -1,0 +1,12 @@
+FormKey: 00083D:GTS CE - The Artifice.esp
+EditorID: ARTIFICE_Lining_CraftWood
+Items:
+- Item:
+    Item: 06F993:Skyrim.esm
+    Count: 10
+- Item:
+    Item: 02E68E:Campfire.esm
+    Count: 10
+CreatedObject: 00000F:Skyrim.esm
+WorkbenchKeyword: 099306:Skyrim.esm
+CreatedObjectCount: 1

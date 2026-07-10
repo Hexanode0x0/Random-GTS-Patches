@@ -1,0 +1,17 @@
+FormKey: 019D43:DHSpell.esp
+EditorID: _DH_AlduinAddItemOnDeathScript
+Name:
+  TargetLanguage: English
+  Value: meowser death items
+MenuDisplayObject: 0435A5:Skyrim.esm
+Flags:
+- HideInUI
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

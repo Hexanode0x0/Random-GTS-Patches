@@ -1,0 +1,51 @@
+FormKey: 000818:GTS CE - The Artifice.esp
+EditorID: ARTIFICE_Lining_Leather
+Name:
+  TargetLanguage: English
+  Value: >+
+    Lining: Leather
+MenuDisplayObject: 10FEF4:Skyrim.esm
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Grow Tougher
+Flags:
+- ManualCostCalc
+Type: Ability
+Effects:
+- BaseEffect: 000849:GTS CE - The Artifice.esp
+  Data:
+    Magnitude: 2.5
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: 000805:GTS CE - The Artifice.esp
+    ComparisonValue: 1
+- BaseEffect: 000846:GTS CE - The Artifice.esp
+  Data:
+    Magnitude: 5
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: 000805:GTS CE - The Artifice.esp
+    ComparisonValue: 1
+- BaseEffect: 000848:GTS CE - The Artifice.esp
+  Data:
+    Magnitude: 5
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: 000805:GTS CE - The Artifice.esp
+    ComparisonValue: 1
+- BaseEffect: 000847:GTS CE - The Artifice.esp
+  Data:
+    Magnitude: 5
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: 000805:GTS CE - The Artifice.esp
+    ComparisonValue: 1

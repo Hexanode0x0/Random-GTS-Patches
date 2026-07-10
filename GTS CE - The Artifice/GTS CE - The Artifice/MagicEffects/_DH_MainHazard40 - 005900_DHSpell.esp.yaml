@@ -1,0 +1,50 @@
+FormKey: 005900:DHSpell.esp
+EditorID: _DH_MainHazard40
+Name:
+  TargetLanguage: English
+  Value: Nullify
+MenuDisplayObject: 1097CB:Skyrim.esm
+Keywords:
+- 0A9B1F:Skyrim.esm
+- 0806E1:Skyrim.esm
+Flags:
+- Hostile
+- Detrimental
+- NoDuration
+- NoMagnitude
+- NoRecast
+- PowerAffectsMagnitude
+- NoHitEffect
+- NoDeathDispel
+BaseCost: 41
+MagicSkill: Destruction
+ResistValue: ResistMagic
+CastingLight: 02016B:Skyrim.esm
+HitShader: 057C67:Skyrim.esm
+MinimumSkillLevel: 100
+SpellmakingArea: 60
+SpellmakingCastingTime: 3
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+Projectile: 00FB39:DHSpell.esp
+Explosion: 00590B:DHSpell.esp
+CastType: FireAndForget
+TargetType: Aimed
+CastingArt: 036342:Skyrim.esm
+ImpactData: 026113:Skyrim.esm
+SkillUsageMultiplier: 1
+DualCastScale: 1
+ImageSpaceModifier: 01FD04:Skyrim.esm
+CastingSoundLevel: VeryLoud
+Sounds:
+- Sound: 03F37A:Skyrim.esm
+- Type: Charge
+  Sound: 0FDA53:Skyrim.esm
+- Type: Ready
+  Sound: 03F1F0:Skyrim.esm
+- Type: Release
+  Sound: 03C8FB:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: And it was nothing.

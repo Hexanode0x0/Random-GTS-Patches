@@ -1,0 +1,23 @@
+FormKey: 000816:GTS CE - The Artifice.esp
+EditorID: ARTIFICE_Lining_ShockPhysPosWood
+Name:
+  TargetLanguage: English
+  Value: Physical and Shock Resistance
+MenuDisplayObject: 0435A5:Skyrim.esm
+Flags:
+- Recover
+- NoDuration
+- NoArea
+- HideInUI
+SecondActorValueWeight: 5
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: ResistShock
+  Type: DualValueModifier
+SecondActorValue: DamageResist
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

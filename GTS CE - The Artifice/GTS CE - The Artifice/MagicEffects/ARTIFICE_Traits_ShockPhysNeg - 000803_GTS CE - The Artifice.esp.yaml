@@ -1,0 +1,24 @@
+FormKey: 000803:GTS CE - The Artifice.esp
+EditorID: ARTIFICE_Traits_ShockPhysNeg
+Name:
+  TargetLanguage: English
+  Value: Physical and Shock Vulnerability
+MenuDisplayObject: 0435A5:Skyrim.esm
+Flags:
+- Recover
+- Detrimental
+- NoDuration
+- NoArea
+- HideInUI
+SecondActorValueWeight: 1
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: ResistShock
+  Type: DualValueModifier
+SecondActorValue: DamageResist
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

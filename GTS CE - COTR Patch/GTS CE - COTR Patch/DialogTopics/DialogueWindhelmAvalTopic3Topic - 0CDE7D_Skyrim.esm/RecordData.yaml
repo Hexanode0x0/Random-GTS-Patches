@@ -1,9 +1,0 @@
-FormKey: 0CDE7D:Skyrim.esm
-EditorID: DialogueWindhelmAvalTopic3Topic
-Name:
-  TargetLanguage: English
-  Value: You live in the Gray Quarter?
-Priority: 40
-Branch: 0CDF46:Skyrim.esm
-Quest: 03502E:Skyrim.esm
-SubtypeName: CUST

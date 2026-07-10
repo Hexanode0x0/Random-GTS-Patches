@@ -1,9 +1,0 @@
-FormKey: 06C3D4:Skyrim.esm
-EditorID: DarkAboutYourselfBranchTopic
-Name:
-  TargetLanguage: English
-  Value: What can you tell me about yourself?
-Priority: 10
-Branch: 06C416:Skyrim.esm
-Quest: 02E7AF:Skyrim.esm
-SubtypeName: CUST

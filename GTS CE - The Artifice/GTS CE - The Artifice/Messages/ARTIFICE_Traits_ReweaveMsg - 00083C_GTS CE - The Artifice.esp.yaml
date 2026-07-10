@@ -1,0 +1,26 @@
+FormKey: 00083C:GTS CE - The Artifice.esp
+EditorID: ARTIFICE_Traits_ReweaveMsg
+Description:
+  TargetLanguage: English
+  Value: >-
+    === REWEAVE THE BODY ===
+
+    You may change your body as you desire.
+
+    The Artifice only accpets soul gems.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Reweave Appearance
+- Text:
+    TargetLanguage: English
+    Value: Purify The Body
+- Text:
+    TargetLanguage: English
+    Value: Feed The Artifice
+- Text:
+    TargetLanguage: English
+    Value: Do Nothing

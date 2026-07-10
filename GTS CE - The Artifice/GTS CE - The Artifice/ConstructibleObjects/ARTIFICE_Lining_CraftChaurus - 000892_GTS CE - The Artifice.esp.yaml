@@ -1,0 +1,12 @@
+FormKey: 000892:GTS CE - The Artifice.esp
+EditorID: ARTIFICE_Lining_CraftChaurus
+Items:
+- Item:
+    Item: 03AD57:Skyrim.esm
+    Count: 50
+- Item:
+    Item: 0183B7:Dawnguard.esm
+    Count: 20
+CreatedObject: 00000F:Skyrim.esm
+WorkbenchKeyword: 099306:Skyrim.esm
+CreatedObjectCount: 1

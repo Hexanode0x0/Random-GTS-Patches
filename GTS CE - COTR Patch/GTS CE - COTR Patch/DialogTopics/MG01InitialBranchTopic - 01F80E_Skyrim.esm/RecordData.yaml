@@ -1,9 +1,0 @@
-FormKey: 01F80E:Skyrim.esm
-EditorID: MG01InitialBranchTopic
-Name:
-  TargetLanguage: English
-  Value: Where can I learn more about magic?
-Priority: 40
-Branch: 01F822:Skyrim.esm
-Quest: 01F251:Skyrim.esm
-SubtypeName: CUST

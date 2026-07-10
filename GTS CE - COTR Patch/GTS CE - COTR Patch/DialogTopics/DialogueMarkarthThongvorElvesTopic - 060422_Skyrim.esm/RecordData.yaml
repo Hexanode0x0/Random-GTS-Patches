@@ -1,9 +1,0 @@
-FormKey: 060422:Skyrim.esm
-EditorID: DialogueMarkarthThongvorElvesTopic
-Name:
-  TargetLanguage: English
-  Value: What's this about elves?
-Priority: 40
-Branch: 060AC6:Skyrim.esm
-Quest: 017F05:Skyrim.esm
-SubtypeName: CUST

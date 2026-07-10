@@ -1,0 +1,24 @@
+FormKey: 000838:Astral.esl
+EditorID: ARTIFICE_Spell_ChaoticBite1
+Name:
+  TargetLanguage: English
+  Value: Chaotic Bite
+MenuDisplayObject: 000870:Astral.esl
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 30
+Flags:
+- ManualCostCalc
+CastType: FireAndForget
+TargetType: Aimed
+HalfCostPerk: 0F2CA8:Skyrim.esm
+Effects:
+- BaseEffect: 000819:Astral.esl
+  Data:
+    Magnitude: 20
+- BaseEffect: 000813:Astral.esl
+  Data:
+    Magnitude: 0.5
+    Duration: 6

@@ -1,0 +1,22 @@
+FormKey: 000806:GTS CE - The Artifice.esp
+EditorID: ARTIFICE_Traits_WaterbreathingMagickaPos
+Name:
+  TargetLanguage: English
+  Value: 'Trait: The Artifice'
+MenuDisplayObject: 0435A5:Skyrim.esm
+Flags:
+- Recover
+- NoDuration
+- NoArea
+SecondActorValueWeight: 1
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Magicka
+  Type: DualValueModifier
+SecondActorValue: WaterBreathing
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: Waiting For Something To Happen?

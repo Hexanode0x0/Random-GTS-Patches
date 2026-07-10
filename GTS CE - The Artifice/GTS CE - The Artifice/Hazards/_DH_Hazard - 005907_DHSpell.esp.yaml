@@ -1,0 +1,21 @@
+FormKey: 005907:DHSpell.esp
+EditorID: _DH_Hazard
+ObjectBounds:
+  First: -1160, -2116, -881
+  Second: 1153, 2142, 4062
+Name:
+  TargetLanguage: English
+  Value: Black Hole
+Model:
+  File: BlackHole\BlackHoleMain.nif
+  Data: 0x020000000000000000000000
+ImageSpaceModifier: 0D13E9:Skyrim.esm
+Radius: 30
+Lifetime: 7
+ImageSpaceRadius: 1024
+TargetInterval: 0.5
+Flags:
+- InheritDurationFromSpawnSpell
+- InheritRadiusFromSpawnSpell
+Spell: 00FB28:DHSpell.esp
+Sound: 005903:DHSpell.esp

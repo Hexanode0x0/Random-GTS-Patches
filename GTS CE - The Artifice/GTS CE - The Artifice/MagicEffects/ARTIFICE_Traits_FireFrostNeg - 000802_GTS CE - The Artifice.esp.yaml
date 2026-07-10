@@ -1,0 +1,24 @@
+FormKey: 000802:GTS CE - The Artifice.esp
+EditorID: ARTIFICE_Traits_FireFrostNeg
+Name:
+  TargetLanguage: English
+  Value: Fire and Frost Vulnerability
+MenuDisplayObject: 0435A5:Skyrim.esm
+Flags:
+- Recover
+- Detrimental
+- NoDuration
+- NoArea
+- HideInUI
+SecondActorValueWeight: 1
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: ResistFire
+  Type: DualValueModifier
+SecondActorValue: ResistFrost
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

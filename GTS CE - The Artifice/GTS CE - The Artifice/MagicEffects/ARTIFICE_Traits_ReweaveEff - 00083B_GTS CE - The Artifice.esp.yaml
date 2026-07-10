@@ -1,0 +1,130 @@
+FormKey: 00083B:GTS CE - The Artifice.esp
+EditorID: ARTIFICE_Traits_ReweaveEff
+VirtualMachineAdapter:
+  Scripts:
+  - Name: ARTIFICE_Selector
+    Properties:
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: ConstructionData
+      Objects:
+      - Name: ''
+        Object: 00083D:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 00088A:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 00088B:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 00088C:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 00088D:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 00088E:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 00088F:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 000890:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 000891:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 000892:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 000893:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 000894:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 000895:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 000896:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 000897:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 000898:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 000899:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 00089A:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 00089B:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 00089C:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 0008A3:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 0008A4:GTS CE - The Artifice.esp
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: ConstructionResults
+      Objects:
+      - Name: ''
+        Object: 000813:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 000818:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 000819:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 00081A:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 00081B:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 00081C:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 00081D:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 00081E:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 00081F:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 000820:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 000821:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 000822:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 000823:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 000824:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 000825:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 000826:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 000827:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 000828:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 000829:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 00082A:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 0008A1:GTS CE - The Artifice.esp
+      - Name: ''
+        Object: 0008A2:GTS CE - The Artifice.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerREF
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ReweaveMsg
+      Object: 00083C:GTS CE - The Artifice.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SoulGemBurner
+      Object: 000836:GTS CE - The Artifice.esp
+Name:
+  TargetLanguage: English
+  Value: Reweave
+MenuDisplayObject: 10FEF4:Skyrim.esm
+Flags:
+- Recover
+- NoDuration
+- NoMagnitude
+- NoArea
+BaseCost: 1
+TaperWeight: 1
+TaperDuration: 1
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+CastType: FireAndForget
+SkillUsageMultiplier: 0.8
+DualCastScale: 1
+Description:
+  TargetLanguage: English
+  Value: Change your shape.

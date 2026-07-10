@@ -1,0 +1,20 @@
+FormKey: 00087D:GTS CE - The Artifice.esp
+EditorID: ARTIFICE_Lining_AbsorbPosWyrmstone
+Name:
+  TargetLanguage: English
+  Value: Spell Absorption
+MenuDisplayObject: 0435A5:Skyrim.esm
+Flags:
+- Recover
+- NoDuration
+- NoArea
+- HideInUI
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: AbsorbChance
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

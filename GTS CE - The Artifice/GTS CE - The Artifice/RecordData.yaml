@@ -1,0 +1,47 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.41
+ModKey: GTS CE - The Artifice.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Small
+  Author: ''
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Update.esm
+    FileSize: 0
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: Dragonborn.esm
+    FileSize: 0
+  - Master: Astral.esl
+    FileSize: 0
+  - Master: Wyrmstooth.esp
+    FileSize: 0
+  - Master: DHSpell.esp
+    FileSize: 0
+  - Master: Scythe of Sorrow.esp
+    FileSize: 0
+  - Master: MysticismMagic.esp
+    FileSize: 0
+  - Master: Adamant.esp
+    FileSize: 0
+  - Master: Artificer.esp
+    FileSize: 0
+  - Master: Wyrmstooth - Craftable Sets.esp
+    FileSize: 0
+  - Master: Biggie Traits.esp
+    FileSize: 0
+  - Master: GTS_Traits.esp
+    FileSize: 0
+  - Master: GTS CE - MegaPatch 0.esp
+    FileSize: 0
+  - Master: Campfire.esm
+    FileSize: 0
+  - Master: Skyrim Extended Cut - Saints and Seducers.esp
+    FileSize: 0
+  - Master: ccbgssse025-advdsgs.esm
+    FileSize: 0
+  INCC: 1

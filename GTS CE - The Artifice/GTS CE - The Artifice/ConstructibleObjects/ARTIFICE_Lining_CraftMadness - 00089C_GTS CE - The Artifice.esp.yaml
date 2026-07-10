@@ -1,0 +1,9 @@
+FormKey: 00089C:GTS CE - The Artifice.esp
+EditorID: ARTIFICE_Lining_CraftMadness
+Items:
+- Item:
+    Item: 000BC8:ccbgssse025-advdsgs.esm
+    Count: 50
+CreatedObject: 00000F:Skyrim.esm
+WorkbenchKeyword: 099306:Skyrim.esm
+CreatedObjectCount: 1

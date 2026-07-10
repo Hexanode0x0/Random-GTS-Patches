@@ -1,0 +1,14 @@
+FormKey: 0008A4:Astral.esl
+EditorID: _A_LLInjectQuest
+Name:
+  TargetLanguage: English
+  Value: inject inject inject
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+Priority: 100
+Stages:
+- LogEntries:
+  - Flags: []
+NextAliasID: 0

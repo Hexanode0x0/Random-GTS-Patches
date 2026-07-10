@@ -1,0 +1,24 @@
+FormKey: 000801:GTS CE - The Artifice.esp
+EditorID: ARTIFICE_Traits_MagicPoisonNeg
+Name:
+  TargetLanguage: English
+  Value: Magic and Poison Vulnerability
+MenuDisplayObject: 0435A5:Skyrim.esm
+Flags:
+- Recover
+- Detrimental
+- NoDuration
+- NoArea
+- HideInUI
+SecondActorValueWeight: 1
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: ResistMagic
+  Type: DualValueModifier
+SecondActorValue: PoisonResist
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

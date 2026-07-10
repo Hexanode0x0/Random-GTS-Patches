@@ -1,0 +1,30 @@
+FormKey: 00089F:GTS CE - The Artifice.esp
+EditorID: ARTIFICE_Traits_EffLevel1
+VirtualMachineAdapter:
+  Scripts:
+  - Name: ARTIFICE_level
+    Properties:
+    - MutagenObjectType: ScriptIntProperty
+      Name: Level
+      Data: 1
+Name:
+  TargetLanguage: English
+  Value: Grow Stronger
+MenuDisplayObject: 0435A5:Skyrim.esm
+Keywords:
+- 00089D:GTS CE - The Artifice.esp
+Flags:
+- Recover
+- NoDuration
+- NoMagnitude
+- NoArea
+- HideInUI
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

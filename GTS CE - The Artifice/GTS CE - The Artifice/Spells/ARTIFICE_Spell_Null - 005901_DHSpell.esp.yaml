@@ -1,0 +1,24 @@
+FormKey: 005901:DHSpell.esp
+EditorID: ARTIFICE_Spell_Null
+Name:
+  TargetLanguage: English
+  Value: Nullify
+MenuDisplayObject: 000873:Astral.esl
+EquipmentType: 013F45:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: And it was nothing.
+BaseCost: 3000
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+- NoDualCastModification
+ChargeTime: 1
+CastType: FireAndForget
+TargetType: Aimed
+HalfCostPerk: 0C44C2:Skyrim.esm
+Effects:
+- BaseEffect: 005900:DHSpell.esp
+  Data:
+    Magnitude: 60
+    Area: 70

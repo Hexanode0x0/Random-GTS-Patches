@@ -1,0 +1,28 @@
+FormKey: 000808:GTS CE - The Artifice.esp
+EditorID: ARTIFICE_Famine_EnchHarvestMagicka
+Name:
+  TargetLanguage: English
+  Value: Harvest Magicka
+MenuDisplayObject: 0435A5:Skyrim.esm
+Keywords:
+- ADA117:Update.esm
+Flags:
+- Hostile
+- Detrimental
+- NoDuration
+- NoArea
+- FXPersist
+- HideInUI
+- PowerAffectsMagnitude
+HitShader: 0ABF08:Skyrim.esm
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Magicka
+  Type: Absorb
+CastType: FireAndForget
+TargetType: Touch
+DualCastScale: 1
+Description:
+  TargetLanguage: English
+  Value: ''

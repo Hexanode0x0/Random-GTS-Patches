@@ -1,0 +1,43 @@
+FormKey: 000834:GTS CE - The Artifice.esp
+EditorID: ARTIFICE_Famine_GrowProxyEff
+VirtualMachineAdapter:
+  Scripts:
+  - Name: ARTIFICE_FaminePrimary
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Famine0
+      Object: 000800:Scythe of Sorrow.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Famine1
+      Object: 00080C:GTS CE - The Artifice.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Famine2
+      Object: 00080E:GTS CE - The Artifice.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GrowFamine
+      Object: 00080A:GTS CE - The Artifice.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerREF
+      Object: 000014:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Grow Famine
+MenuDisplayObject: 000873:Astral.esl
+Keywords:
+- 0A9B1F:Skyrim.esm
+- A4E568:Adamant.esp
+Flags:
+- NoArea
+- 0x40000
+BaseCost: 1
+TaperWeight: 1
+TaperDuration: 1
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+CastType: FireAndForget
+SkillUsageMultiplier: 0.8
+DualCastScale: 1
+Description:
+  TargetLanguage: English
+  Value: Nourish Yourself
