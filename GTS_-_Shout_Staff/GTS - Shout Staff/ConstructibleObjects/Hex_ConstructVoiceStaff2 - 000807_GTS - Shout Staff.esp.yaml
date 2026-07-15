@@ -1,0 +1,39 @@
+FormKey: 000807:GTS - Shout Staff.esp
+EditorID: Hex_ConstructVoiceStaff2
+FormVersion: 40
+Items:
+- Item:
+    Item: 03ADA3:Skyrim.esm
+    Count: 5
+- Item:
+    Item: 03ADA4:Skyrim.esm
+    Count: 5
+- Item:
+    Item: 000800:GTS - Shout Staff.esp
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown2: 84
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 0CB40D:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 000800:GTS - Shout Staff.esp
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 036192:Skyrim.esm
+  ComparisonValue: 280
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 1B400D:NewArmoury.esp
+  ComparisonValue: 1
+CreatedObject: 000801:GTS - Shout Staff.esp
+WorkbenchKeyword: 088105:Skyrim.esm
+CreatedObjectCount: 1

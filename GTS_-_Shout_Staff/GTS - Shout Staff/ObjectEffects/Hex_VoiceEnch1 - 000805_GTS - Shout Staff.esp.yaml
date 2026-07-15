@@ -1,0 +1,14 @@
+FormKey: 000805:GTS - Shout Staff.esp
+EditorID: Hex_VoiceEnch1
+Name:
+  TargetLanguage: English
+  Value: Recover Voice
+Flags:
+- NoAutoCalc
+- ExtendDurationOnRecast
+CastType: FireAndForget
+TargetType: Touch
+EnchantType: Enchantment
+Effects:
+- BaseEffect: 000803:GTS - Shout Staff.esp
+  Data: {}

@@ -1,0 +1,25 @@
+FormKey: 00080B:GTS - Shout Staff.esp
+EditorID: Hex_TemperVoiceStaff2
+Items:
+- Item:
+    Item: 03ADA3:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 03ADA4:Skyrim.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: EPTemperingItemIsEnchantedConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 05218E:Skyrim.esm
+  ComparisonValue: 1
+CreatedObject: 000801:GTS - Shout Staff.esp
+WorkbenchKeyword: 088108:Skyrim.esm
+CreatedObjectCount: 1

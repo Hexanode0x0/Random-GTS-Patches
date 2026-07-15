@@ -15,7 +15,7 @@ Event OnItemAdded(Form Item, int Count, ObjectReference Ref, ObjectReference Sou
 	if soulSize > 0
 		PlayerREF.RestoreActorValue("Magicka", soulSize * 50)
 	endif
-	debug.notification(Item.GetName() + " Soul: " + (Item as SoulGem).GetSoulSize() as string + " Gem: " + (Item as SoulGem).GetGemSize() as string)
+	;debug.notification(Item.GetName() + " Soul: " + (Item as SoulGem).GetSoulSize() as string + " Gem: " + (Item as SoulGem).GetGemSize() as string)
 	int handle = ModEvent.Create("ARTIFICE_IncreaseMagicka")
 	ModEvent.Send(handle)
 	RemoveItem(Item, Count)

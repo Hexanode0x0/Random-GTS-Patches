@@ -1,0 +1,23 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.40.1
+ModKey: GTS - Shout Staff.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Small
+  Author: ''
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Update.esm
+    FileSize: 0
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: NewArmoury.esp
+    FileSize: 0
+  - Master: Scythe of Sorrow.esp
+    FileSize: 0
+  - Master: GTS CE - The Artifice.esp
+    FileSize: 0
+  INCC: 0
