@@ -18,6 +18,6 @@ HalfCostPerk: 0C44C1:Skyrim.esm
 Effects:
 - BaseEffect: 000816:Astral.esl
   Data:
-    Magnitude: 100
+    Magnitude: 120
     Area: 8
     Duration: 1

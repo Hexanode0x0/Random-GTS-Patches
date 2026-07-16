@@ -4,9 +4,6 @@ VirtualMachineAdapter:
   Scripts:
   - Name: ARTIFICE_Effects
     Properties:
-    - MutagenObjectType: ScriptObjectProperty
-      Name: ArtificeSpellLevel
-      Object: 000835:GTS CE - The Artifice.esp
     - MutagenObjectType: ScriptObjectListProperty
       Name: ArtificeSpellsImpure
       Objects:
@@ -82,6 +79,9 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: PlayerREF
       Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VendorItemPotion
+      Object: 08CDEC:Skyrim.esm
 Name:
   TargetLanguage: English
   Value: Enchanting and Magicka Regen Inability

@@ -5,11 +5,11 @@ VirtualMachineAdapter:
   - Name: ARTIFICE_BurnSoulGems
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: Main
-      Object: 000014:Skyrim.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: PlayerREF
       Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ReusableSoulGem
+      Object: 0ED2F1:Skyrim.esm
 ObjectBounds:
   First: -27, -27, 0
   Second: 27, 27, 80

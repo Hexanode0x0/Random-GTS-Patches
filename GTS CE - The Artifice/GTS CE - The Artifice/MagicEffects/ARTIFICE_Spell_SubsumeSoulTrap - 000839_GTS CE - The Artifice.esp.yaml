@@ -45,6 +45,7 @@ Flags:
 - NoMagnitude
 - NoArea
 - FXPersist
+- HideInUI
 BaseCost: 7.5
 HitShader: 0506D7:Skyrim.esm
 Archetype:
@@ -56,9 +57,6 @@ TargetType: Aimed
 HitEffectArt: 0506D6:Skyrim.esm
 SkillUsageMultiplier: 1.5
 DualCastScale: 1
-Description:
-  TargetLanguage: English
-  Value: Take everything.
 Conditions:
 - MutagenObjectType: ConditionFloat
   Data:

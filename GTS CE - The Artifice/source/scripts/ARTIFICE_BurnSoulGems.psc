@@ -1,13 +1,10 @@
 scriptname ARTIFICE_BurnSoulGems extends ObjectReference
 
 Actor Property PlayerREF Auto
+Keyword Property ReusableSoulGem Auto
 
 Event OnItemAdded(Form Item, int Count, ObjectReference Ref, ObjectReference Source)
-	if Ref != None
-		RemoveItem(Ref, Count, false, Source)
-		return
-	endif
-	if !(Item as SoulGem)
+	if !(Item as SoulGem) || Item.HasKeyword(ReusableSoulGem)
 		RemoveItem(Item, Count, false, Source)
 		return
 	endif

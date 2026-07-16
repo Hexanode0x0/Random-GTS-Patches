@@ -16,7 +16,6 @@ Keywords:
 Flags:
 - Hostile
 - Detrimental
-- NoDuration
 - NoArea
 - FXPersist
 - HideInUI

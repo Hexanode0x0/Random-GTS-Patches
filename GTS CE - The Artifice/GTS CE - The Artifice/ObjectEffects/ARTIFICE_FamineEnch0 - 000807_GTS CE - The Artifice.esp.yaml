@@ -12,24 +12,12 @@ EnchantType: Enchantment
 Effects:
 - BaseEffect: 000808:GTS CE - The Artifice.esp
   Data:
-    Magnitude: 20
-  Conditions:
-  - MutagenObjectType: ConditionFloat
-    CompareOperator: GreaterThanOrEqualTo
-    Data:
-      MutagenObjectType: GetActorValuePercentConditionData
-      ActorValue: Magicka
-    ComparisonValue: 5
+    Magnitude: 25
+    Duration: 1
 - BaseEffect: 000809:GTS CE - The Artifice.esp
   Data:
-    Magnitude: 20
-  Conditions:
-  - MutagenObjectType: ConditionFloat
-    CompareOperator: LessThan
-    Data:
-      MutagenObjectType: GetActorValuePercentConditionData
-      ActorValue: Magicka
-    ComparisonValue: 5
+    Magnitude: 25
+    Duration: 1
 - BaseEffect: 0008A5:GTS CE - The Artifice.esp
   Data:
     Duration: 2
